@@ -22,9 +22,9 @@ int main(int argc, char* argv[])
 	int len = sizeof(sin);
 
 	const char * sendData = "M-SEARCH * HTTP/1.1\r\n\
-				            HOST: 239.255.255.250:1982\r\n\
-				            MAN: \"ssdp:discover\"\r\n\
-				            ST: wifi_bulb";
+				HOST: 239.255.255.250:1982\r\n\
+				MAN: \"ssdp:discover\"\r\n\
+				ST: wifi_bulb";
 	sendto(sclient, sendData, strlen(sendData), 0, (sockaddr *)&sin, len);
 
 	char recvData[1024];

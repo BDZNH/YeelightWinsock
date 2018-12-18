@@ -1,5 +1,16 @@
 # YeelightWinsock
+
+## what is this?
+
 a simple demo that search a yeelight device with winsock
+
+## API Document
+
+official web site: [https://www.yeelight.com/](https://www.yeelight.com/)
+
+directly link: [https://www.yeelight.com/download/Yeelight_Inter-Operation_Spec.pdf](https://www.yeelight.com/download/Yeelight_Inter-Operation_Spec.pdf)
+
+-----
 
 ```C++
 #define _WINSOCK_DEPRECATED_NO_WARNINGS
